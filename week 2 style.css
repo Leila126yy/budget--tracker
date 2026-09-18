@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#add-expense {
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.expenses {
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.expenses table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.expenses th,
+.expenses td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.expenses th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.expenses tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.expenses tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 2px solid blue;
+}
