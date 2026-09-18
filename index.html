@@ -8,22 +8,30 @@
 </head>
 
 <body>
-
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" alt="Budget Tracker icon" width="80">
     <h1>My Budget Tracker</h1>
 
     <p>Track your income and expenses in one place.</p>
 
     <section id="add-expense">
         <h2>Add Expense</h2>
-
+        <form>
         <label for="expense-name">Expense Name:</label>
         <input type="text" id="expense-name" placeholder="Enter expense name">
 
-        <label for="amount">Amount:</label>
-        <input type="number" id="amount" placeholder="Enter amount">
+       <label for="expense-amount">Amount:</label>
+<input type="number" id="expense-amount" placeholder="Enter amount">
 
         <label for="category">Category:</label>
-        <input type="text" id="category" placeholder="Enter category">
+        <select id="expense-category">
+  <option value="Food">Food</option>
+  <option value="Transport">Transport</option>
+  <option value="Rent">Rent</option>
+  <option value="Entertainment">Entertainment</option>
+  <option value="Other">Other</option>
+</select>
+        <button type="button">Add Expense</button>         
+  </form>
     </section>
 
     <section class="expenses">
@@ -76,6 +84,16 @@
   </tbody>
 </table>
     </section>
-
+    <details>
+    <summary>How to use this tracker</summary>
+    <p>Enter the expense name, amount, and category using the form above. The expense will be added to the tracker in future versions.</p>
+</details>
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/AdT8LJ7L6tM"
+    title="Budgeting Tips Video"
+    frameborder="0">
+</iframe>
 </body>
 </html>
